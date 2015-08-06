@@ -1,0 +1,47 @@
+html {
+    font-size: 30px;
+}
+
+body {
+    background-color: #EDFFE2;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+.task-overlay {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.task-card {
+    color: #4B4B3E;
+    background-color: rgb(255, 255, 245);
+    width: 15rem;
+    height: 11rem;
+    padding: 10px;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+    box-shadow: 4px 4px 10px rgb(221, 221, 221);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.task-overlay .task-card {
+    box-shadow: 4px 4px 10px rgb(38, 38, 38);
+    transform: scale(1.1);
+}
+
+
+.task-card .task-body {
+    height: 100%;
+}
